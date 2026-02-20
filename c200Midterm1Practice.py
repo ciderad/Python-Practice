@@ -133,7 +133,7 @@ def midStr(str1, str2, str3):
 
     return finalStr
 
-#TESTCASES FOR MIDSTR FUNCTION
+#TESTCASES FOR MIDSTR FUNCTION (This is for github practice)
 
 st1, st2, st3 = "hello", "world", "!"
 print("EXAMPLE 1 OF MIDSTR: " + midStr(st1, st2, st3))
