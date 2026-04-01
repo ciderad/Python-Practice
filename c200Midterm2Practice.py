@@ -31,14 +31,19 @@
 cideras_dict = { "age": 19, "month": "september", "colour":"brown", }
 
 keys = cideras_dict.keys() #.keys() returns the keys in a dictionary
+print(keys)
+print(type(keys)) #its own distinct type 'dict_keys'
 
 ## YOU CAN EXPECT : "age", "year", "colour"
 
 vals = cideras_dict.values() #.values() returns values of dictionary
-
+print(vals)
+print(type(vals)) #its own distinct type 'dict_values'
 ## YOU CAN EXPECT : 19, 2006, brown
 
 items = cideras_dict.items() #.items() returns items in the dictionary
+print(items)
+print(type(items)) #its own distinct type 'dict_items'
 
 #basically the dictionary as a whole
 
@@ -50,4 +55,32 @@ cids_set = {9, 22, 6, 6} #unique elements only
 
 print(cids_set)
 
+#CATEGORY: MATH & LOGIC
 
+#Floor Division/Integer Division
+floorDiv = 10//3
+print("The floor division of 10//3 is: ", floorDiv)
+
+#Modulus
+remainder = 10%3
+print("The remainder of 10/3 using MODULUS (%) is: ", remainder)
+
+#Eval(), evaluates argument as code
+eval("15+65")
+eval("print('hello')")
+
+#Unbounded loop
+while True:
+    break
+
+#PRACTICE LAMBDA
+#regular add function: 
+def add (x, y):
+    return x + y
+
+print(add(3, 2))
+
+#now using lambda (temporary function for one time use)
+add_lambda = lambda x,y: x+y
+print(add_lambda(3,2)) 
+## PLEASE PUT THIS SYNTAX ON YOUR INDEX CARD
