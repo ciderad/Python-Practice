@@ -84,3 +84,12 @@ print(add(3, 2))
 add_lambda = lambda x,y: x+y
 print(add_lambda(3,2)) 
 ## PLEASE PUT THIS SYNTAX ON YOUR INDEX CARD
+
+#FILE STUFF
+
+filename = "data.txt"     # Name of file
+mode = "r"                # "r" = Read mode, "w" = Write mode
+
+# TextIOWrapper (File Object - Mutable)
+with open(filename, mode) as f:
+    content = f.read()    # File object 'f' handles the stream
